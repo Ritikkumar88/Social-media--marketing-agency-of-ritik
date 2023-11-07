@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- costom css -->
+    <link rel="stylesheet" href="index.css">
+
+    <title>Elevate360 Social</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/icon.png" alt="" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#industries">Industries</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Sarvices
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Website-Building</a></li>
+                            <li><a class="dropdown-item" href="#">Face book ads</a></li>
+                            <li><a class="dropdown-item" href="#">Social media managing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Contectform">Contect US!</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input id="nav-search-bar" class="form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button id="navbar-btn" class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <div class="container-fluid">
+        <div class="row justify-content-center" id="home">
+            <div class="col-md-6">
+                <h2 class="text-center" id="homeh2">"Your Success, Our Strategy <br></h2>
+                <h3 class="text-center" id="homeh3">Your Story, Our Spotlight."</h3>
+                <p class="text-center" id="homepara">Your Story, Our Spotlight." We specialize in illuminating your
+                    brand's
+                    unique narrative, crafting engaging content that captivates audiences across social platforms. "Your
+                    Success, Our Strategy." Our tailored approach drives results, boosting your brand's online presence
+                    and
+                    ensuring your success in the digital realm.</p>
+
+            </div>
+            <div class="col-md-4" id="homeimg">
+                <img src="./assets/bg-removebg-preview.png" alt="" id="homeimg1">
+            </div>
+        </div>
+
+        <!-- about -->
+        <h1 id="aboutrow1">About Us!</h1>
+        <div class="row justify-content-center" id="about">
+            <div class="col-md-4 col-md-4 d-none d-md-block">
+                <img src="./assets/1.webp" alt="" class="img-fluid" id="aboutimg">
+            </div>
+            <div class="col-md-6 col-11">
+                <p id="aboutpara">Welcome to <b>Elevate 360 Social</b> where creativity meets strategy in the digital
+                    sphere. We specialize in crafting compelling social media narratives and implementing data-driven
+                    campaigns that drive engagement and boost brand visibility. Our dedicated team is committed to
+                    transforming your online presence and helping you achieve your business goals. Join us in the
+                    journey to
+                    elevate your brand and create meaningful connections in the digital world.</p>
+            </div>
+        </div>
+
+        <!-- industries -->
+
+        <h2 id="industriesh2">Our Experties</h2>
+
+        <div class="row justify-content-center text-center" id="industries">
+            <div class="col-md-3">
+                <i class="bi bi-hospital"></i>
+                <h3 class="industriesh3">Health And Fitness</h3>
+            </div>
+            <div class="col-md-3">
+                <i class="bi bi-cake2-fill"></i>
+                <h3 class="industriesh3">Resturaunts and bakerys</h3>
+            </div>
+            <div class="col-md-3">
+                <i class="bi bi-credit-card-2-back"></i>
+                <h3 class="industriesh3">garments and Clothings</h3>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Contect -->
+
+        <div class="row justify-content-center" id="Contectform">
+            <div class="col-md-8">
+                <!-- form -->
+                <h2 class="contecth2 text-center">Contect Us!</h2>
+                <form id="form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your First Name</label>
+                        <input type="text" class="form-control" id="fname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your last Name</label>
+                        <input type="text" class="form-control" id="sname">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Massage to us!</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="formbtn">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row justify-content-center align-center">
+            <div class="col-md-8" id="map">
+                <!-- map -->
+                <h2 class="contecth2 text-center">Our Location</h2>
+                <iframe id="map1"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7011.719649116641!2d77.07430353603418!3d28.51386483040557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1960a09cb8ad%3A0x6eac9927b2541db0!2sDundahera%20Village%2C%20Sector%2020%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1699356972374!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row justify-content-center" id="footer">
+            <div class="col-md-3">
+                <h3 class="footerh3 text-center">Social Media's</h3>
+                <p class="text-center"><a href="https://www.instagram.com/ritikshroff19/" target="_blank">Instagram <i
+                            class="bi bi-instagram"></i></a></p>
+                <p class="text-center"><a href="https://twitter.com/RitikRa21633494" target="_blank">Twitter <i
+                            class="bi bi-facebook"></i></a></p>
+                <p class="text-center"><a href="https://www.linkedin.com/in/ritik-shroff-922140239/"
+                        target="_blank">LinkedIN <i class="bi bi-linkedin"></i></a></p>
+                <p class="text-center"><a href="https://github.com/dashboard" target="_blank">Github <i
+                            class="bi bi-github"></i></a></p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-center"><i class="bi bi-geo-fill"></i> Location</h3>
+                <p class="text-center">Dundahera , Gurugram <br> Haryana , 122016</p>
+                <p class="text-center">Email : rr824566@gmail.com</p>
+                <p class="text-center">Ph : 9555325902</p>
+            </div>
+            <div class="col-md-3">
+                <h2 class="text-center"> <a href="#">Elevate 360 Social</a></h2>
+            </div>
+        </div>
+
+
+
+        <!-- main fluid div -->
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
